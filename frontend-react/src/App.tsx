@@ -6,6 +6,7 @@ import {
 
 import './custom.scss';
 
+
 import Landing from './views/Landing';
 import Form from './views/Form';
 import Table from './views/Table';
