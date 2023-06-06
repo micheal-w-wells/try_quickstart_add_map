@@ -7,6 +7,7 @@ import {
 import './custom.scss';
 
 
+
 import Landing from './views/Landing';
 import Form from './views/Form';
 import Table from './views/Table';
@@ -23,6 +24,7 @@ import Logout from './components/Logout';
  */
 const App: React.FC = () => {
   const { signed } = useAuth();
+  const build_bump_stuff_that_is_not_whitespace = ''
 
   return (
     <BrowserRouter>
