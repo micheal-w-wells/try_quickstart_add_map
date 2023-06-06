@@ -24,6 +24,7 @@ import Logout from './components/Logout';
  */
 const App: React.FC = () => {
   const { signed } = useAuth();
+  const build_bump_stuff_that_is_not_whitespace = ''
 
   return (
     <BrowserRouter>
