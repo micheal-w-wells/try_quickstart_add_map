@@ -53,9 +53,9 @@ jobs:
             build_file: ./database/Dockerfile
             build_context: ./database
           - package: frontend
-            triggers: ('frontend/')
-            build_file: ./frontend/Dockerfile
-            build_context: ./frontend
+            triggers: ('frontend-react/')
+            build_file: ./frontend-react/Dockerfile
+            build_context: ./frontend-react
           - package: database-migrations
             triggers: ('backend/db')
             build_file: ./backend/db/Dockerfile
